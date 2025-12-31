@@ -4,3 +4,8 @@ version = "0.1.0"
 edition = "2024"
 
 [dependencies]
+log = "0.4.29"
+sdl2 = "0.38.0"
+serde = {version = "1.0.228", features = ["derive"] }
+structopt = "0.3.26"
+text_io = "0.1.13"
